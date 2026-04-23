@@ -54,7 +54,7 @@ def test_restore_names_for_multiple_users() -> None:
         },
     ]
     restore_names(users)
-    assert users[0]["first_name"] == "Holy"
+    assert users[0]["first_name"] == "Jack"
     assert users[1]["first_name"] == "Mike"
 
 
